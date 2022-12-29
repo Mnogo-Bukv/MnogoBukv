@@ -1,0 +1,14 @@
+name: status
+on: [workflow_call, push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm ci
+      - run: npm run check:all
+      - run: npm run lint
+      - run: npm t
+      - run: npm run type-coverage
+      - uses: codecov/codecov-action@v2

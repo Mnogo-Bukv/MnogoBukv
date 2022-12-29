@@ -1,3 +1,7 @@
+[![status](https://github.com/Mnogo-Bukv/MnogoBukv/workflows/status/badge.svg)](https://github.com/Mnogo-Bukv/MnogoBukv/actions/workflows/status.yml)
+[![codecov](https://codecov.io/gh/Mnogo-Bukv/MnogoBukv/branch/main/graph/badge.svg?token=YC314L3ZF7)](https://codecov.io/gh/Mnogo-Bukv/MnogoBukv)
+[![Type Coverage](https://img.shields.io/badge/dynamic/json.svg?label=type-coverage&prefix=%E2%89%A5&suffix=%&query=$.typeCoverage.atLeast&uri=https%3A%2F%2Fraw.githubusercontent.com%2FMnogo-Bukv%2FMnogoBukv%2Fmain%2Fpackage.json)](https://github.com/plantain-00/type-coverage)
+
 # Roadmap / приоритеты
 
 1. Мобильное приложение под Android с экранами "Меню", "Игра", "Конец игры", "Об игре".
