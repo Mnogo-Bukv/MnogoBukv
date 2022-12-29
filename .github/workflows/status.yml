@@ -2,7 +2,7 @@ name: status
 on: [workflow_call, push, pull_request, workflow_dispatch]
 
 jobs:
-  build:
+  status:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
