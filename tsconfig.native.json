@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "lib": ["es2018"],
+    "types": []
+  },
+  "include": [
+    "src/index.native.ts",
+    "src/**/*.native.*",
+    "src/**/*.android.*",
+    "src/**/*.ios.*"
+  ]
+}
