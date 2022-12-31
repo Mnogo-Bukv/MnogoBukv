@@ -18,7 +18,8 @@
     "shake": "adb shell input keyevent 82",
     "test": "jest",
     "lint": "eslint .",
-    "type-coverage": "type-coverage --detail --strict"
+    "type-coverage": "type-coverage --detail --strict",
+    "release:android": "npx react-native run-android --variant=release"
   },
   "dependencies": {
     "react": "18.1.0",
